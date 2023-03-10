@@ -13,9 +13,9 @@ const handlePaystackPayment = async (req, res) => {
   const params = {
     email,
     amount,
-    callback_url: `http://127.0.0.1:5500/public/index.html`, //user will be directed to this route when payment is successful
+    callback_url: `https://buyandsubscribe.onrender.com`, //user will be directed to this route when payment is successful
     metadata: {
-      cancel_action: "http://localhost:3000", //user will be directed to this route once payment fails
+      cancel_action: "https://buyandsubscribe.onrender.com", //user will be directed to this route once payment fails
       cartItem: item,
     },
   };
