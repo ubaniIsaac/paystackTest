@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+select {
+    height: 100px;
+}
+
+#total {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+}

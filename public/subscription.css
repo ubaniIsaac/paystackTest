@@ -1,0 +1,43 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 19px;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #00a0d2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0089ba;
+}
+
+p#response-message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
