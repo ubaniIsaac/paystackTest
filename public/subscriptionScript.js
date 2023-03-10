@@ -24,7 +24,7 @@ form.addEventListener('submit', async (e) => {
             .then(response => response.json())
             .then(data => {
                 // reference =
-                responseMessage.textContent = data.message;
+                responseMessage.textContent = `${data.message} CHeck your mail for reciept`;
                 responseMessage.style.color = '#H00';
 
             })
