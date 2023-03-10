@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) => {
     totalDiv.textContent = `Total for ${email}: $${total.toFixed(2)}`;
     console.log(selectedItems)
 
-    fetch('http://localhost:3000/api/payment/paystack', {
+    fetch('/api/payment/paystack', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
